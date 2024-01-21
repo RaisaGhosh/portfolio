@@ -49,7 +49,7 @@ export default function Home() {
           <h2 className=' text-5xl py-2 text-pink-600 font-medium md:text-6xl lg:text-10xl dark:text-amber-100'>Raisa Ghosh</h2>
           {/* <h3 className=' text-2xl py-2 md:text-3xl lg:text-4xl dark:text-gray-50'>Student</h3> */}
           <p className=' text-base pt-5 mb:pt-7 pb-3 leading-8 text-gray-700  md:text-xl lg:text-xl max-w-lg mx-auto dark:text-gray-200'>Hi(নমস্কার🌟) </p>
-          <p className=' text-base pt-0 pb-5 leading-8 text-gray-700  md:text-xl lg:text-xl max-w-lg mx-auto dark:text-gray-200'>Thank you for stopping by! Still have a lot to learn but I appreciate you taking out time to see what I've been up to.</p>
+          <p className=' text-base pt-0 pb-5 leading-8 text-gray-700  md:text-xl lg:text-xl max-w-lg mx-auto dark:text-gray-200'>Thank you for stopping by! Still have a lot to learn but I appreciate you taking out time to see what I&apos;ve been up to.</p>
         </div>
 
         <div className=' font-semibold text-5xl flex justify-center gap-16 text-gray-700 dark:text-gray-200'>
@@ -133,7 +133,7 @@ implementation.</li>
 suring clarity and reproducibility.</li>
               <li>Collaborated cross-functionally to conduct extensive testing and evaluation to validate the accuracy and reliability of
 the algorithm.</li>
-<li>Ended the internship by presenting the algorithm's capabilities and findings.</li>
+<li>Ended the internship by presenting the algorithm&apos;s capabilities and findings.</li>
             </ul>
           </div>
           <div className=' text-left shadow-lg p-10 rounded-xl my-10 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
@@ -144,7 +144,7 @@ the algorithm.</li>
             <ul className=' pt-5 text-gray-700 list-disc'>
               <li>Proposed a solution to one of the problem statements by <a href='https://www.aicte-india.org/' className=' font-bold text-gray-800 underline'>All India Council for Technical Education (AICTE)</a> that primarily served as a tool for AICTE to surveillance the projects being made in the different colleges.</li>
               <li> Did market research to identify products similar to our product idea. Conducted surveys within the community in order to gain insight into the features that users desired but found lacking.</li>
-              <li>Analyzed the available products to understand what worked for them, what didn't, and why was a certain feature missing, was it because of past failure, and if so, what led to the failure etc.</li>
+              <li>Analyzed the available products to understand what worked for them, what didn&apos;t, and why was a certain feature missing, was it because of past failure, and if so, what led to the failure etc.</li>
               <li>Using the Google Design Sprint Methodology, designed a product development roadmap, along with a business and revenue plan that the organization can reference to if they decide to implement the platform on a large scale.</li>
               <li>Worked with the team to implement <a href='https://drive.google.com/file/d/128bkSA4Ym5HU2DL5p5Cci8rUZGwOEilX/view?usp=drive_link' className=' font-bold text-gray-800 underline'>a basic prototype using Draftium</a> demonstrating the UI, wireframe and flow of the recommended product/platform.</li>
 <li>Pitched the product idea on behalf of my team to a panel of 5 judges and an audience of approximately 200 people.
@@ -245,7 +245,7 @@ the algorithm.</li>
           <div className=' text-left shadow-lg p-10 rounded-xl my-10  bg-amber-100'>
           <h3 className=' py-2 text-amber-600 font-extrabold'>Analysing Student Results : </h3>
           <ul className=' py-2 pt-5 text-gray-700 list-disc'>
-            <li>A package made for the use of my college's exam cell. It contained different programs that read files and performed some operations according to the user's choice, like ranking students according to their grades or making report cards for students.</li>
+            <li>A package made for the use of my college&apos;s exam cell. It contained different programs that read files and performed some operations according to the user&apos;s choice, like ranking students according to their grades or making report cards for students.</li>
             <li>Divided the different functionalities into different programs for better readability, reproducibility, and modifications in the future.</li>
             <li>Click on the image below for more details!</li>
           </ul>
