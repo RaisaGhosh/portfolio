@@ -74,10 +74,10 @@ export default function Home() {
         <div className='lg:flex gap-10'>
         <div className=' text-left shadow-lg p-10 rounded-xl my-10 lg:w-1/2 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
             <Image src={college} width={160} height={100} alt=""/>
-            <h3 className=' text-xl font-medium pt-8 pb-1 text-pink-600 '>Undergraduate</h3>
-            <p className=' text-base text-amber-600 '><a href='https://drive.google.com/drive/folders/1EYBDxtvKUvfDCNdk4Vv7CkXoJ1AQd8pg?usp=drive_link' className=' font-bold underline'>Bachelor of Computer Science & Engineering</a></p>
-            <p className=' text-sm text-gray-400 '>2020-2024</p>
-            <ul className=' pt-5 text-gray-700 list-disc'>
+            <h3 className=' text-base md:text-lg lg:text-xl font-medium pt-8 pb-1 text-pink-600 '>Undergraduate</h3>
+            <p className=' text-xs md:text-sm lg:text-base text-amber-600 '><a href='https://drive.google.com/drive/folders/1EYBDxtvKUvfDCNdk4Vv7CkXoJ1AQd8pg?usp=drive_link' className=' font-bold underline'>Bachelor of Computer Science & Engineering</a></p>
+            <p className=' text-xs md:text-sm lg:text-sm text-gray-400 dark:text-gray-400'>2020-2024</p>
+            <ul className='text-xs md:text-sm lg:text-base pt-5 text-gray-700  list-disc'>
               <li>1st Semester - 9.07/10</li>
               <li>2nd Semester - 9.52/10</li>
               <li>3rd Semester - 9.49/10</li>
@@ -88,10 +88,10 @@ export default function Home() {
           </div>
           <div className=' text-left shadow-lg p-10 rounded-xl my-10 lg:w-1/2 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
             <Image src={college} width={160} height={100} alt=""/>
-            <h3 className=' text-xl font-medium pt-8 pb-1 text-pink-600 '>High School</h3>
-            <p className=' text-amber-600 '><a href='https://drive.google.com/drive/folders/1_eJO-w4OTOoIY2qGR0_1WaRN0aKqdqCG?usp=drive_link' className=' font-bold underline'>Science & Computer Science</a></p>
-            <p className=' text-sm text-gray-400 dark:text-gray-400'>2018-2020</p>
-            <ul className=' pt-5 text-gray-700  list-disc'>
+            <h3 className=' text-base md:text-lg lg:text-xl font-medium pt-8 pb-1 text-pink-600 '>High School</h3>
+            <p className=' text-xs md:text-sm lg:text-base text-amber-600 '><a href='https://drive.google.com/drive/folders/1_eJO-w4OTOoIY2qGR0_1WaRN0aKqdqCG?usp=drive_link' className=' font-bold underline'>Science & Computer Science</a></p>
+            <p className=' text-xs md:text-sm lg:text-sm text-gray-400 dark:text-gray-400'>2018-2020</p>
+            <ul className='text-xs md:text-sm lg:text-base pt-5 text-gray-700  list-disc'>
               <li>Computer Science - 100/100</li>
               <li>Math - 94/100</li>
               <li>Chemistry - 95/100</li>
@@ -116,10 +116,10 @@ export default function Home() {
         <div className='lg:flex-row lg:flex-wrap gap-10'>
         <div className=' text-left shadow-lg p-10 rounded-xl my-10 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
             <Image src={work} width={140} height={100} alt=""/>
-            <h3 className=' text-xl font-medium pt-8 pb-1 text-pink-600 '>Algorithm Design and Development Intern</h3>
-            <p className=' text-base text-amber-600 '>Praxis Business School</p>
-            <p className=' text-sm text-gray-400 '>July,2022 - September,2022</p>
-            <ul className=' pt-5 text-gray-700 list-disc'>
+            <h3 className='text-base md:text-lg lg:text-xl font-medium pt-8 pb-1 text-pink-600 '>Algorithm Design and Development Intern</h3>
+            <p className=' text-xs md:text-sm lg:text-base text-amber-600 '>Praxis Business School</p>
+            <p className=' text-xs md:text-sm lg:text-sm text-gray-400 '>July,2022 - September,2022</p>
+            <ul className='text-xs md:text-sm lg:text-base pt-5 text-gray-700 list-disc'>
               <li>Contributed to <a href='https://www.linkedin.com/feed/update/urn:li:activity:7013049400847466496?utm_source=share&utm_medium=member_desktop#:~:text=Meanwhile%2C%20Raisa,for%20this%20work.' className=' font-bold text-gray-800 underline'>Basket-Recipe Recommender System</a> by automating and optimizing the data collection pipeline.</li>
               <li>Conducted thorough research and analysis to understand the requirements and objectives of the project.</li>
               <li>Developed a comprehensive roadmap for the development of an algorithm designed to identify and select popular dishes, extract relevant information from the internet about these dishes, and utilize the Parts of Speech (POS)
@@ -138,10 +138,10 @@ the algorithm.</li>
           </div>
           <div className=' text-left shadow-lg p-10 rounded-xl my-10 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
             <Image src={work} width={140} height={100} alt=""/>
-            <h3 className=' text-xl font-medium pt-8 pb-1 text-pink-600 '>Team Lead</h3>
-            <p className=' text-base text-amber-600 '>Smart India Hackathon</p>
-            <p className=' text-sm text-gray-400 '>April 2022</p>
-            <ul className=' pt-5 text-gray-700 list-disc'>
+            <h3 className=' text-base md:text-lg lg:text-xl font-medium pt-8 pb-1 text-pink-600 '>Team Lead</h3>
+            <p className=' text-xs md:text-sm lg:text-base text-amber-600 '>Smart India Hackathon</p>
+            <p className=' text-xs md:text-sm lg:text-sm text-gray-400 '>April 2022</p>
+            <ul className='text-xs md:text-sm lg:text-base pt-5 text-gray-700 list-disc'>
               <li>Proposed a solution to one of the problem statements by <a href='https://www.aicte-india.org/' className=' font-bold text-gray-800 underline'>All India Council for Technical Education (AICTE)</a> that primarily served as a tool for AICTE to surveillance the projects being made in the different colleges.</li>
               <li> Did market research to identify products similar to our product idea. Conducted surveys within the community in order to gain insight into the features that users desired but found lacking.</li>
               <li>Analyzed the available products to understand what worked for them, what didn&apos;t, and why was a certain feature missing, was it because of past failure, and if so, what led to the failure etc.</li>
@@ -167,8 +167,8 @@ the algorithm.</li>
         <div className='py-2 lg:flex-row lg:flex-wrap'>
 
         <div className=' text-left shadow-lg p-10 rounded-xl my-10  bg-amber-100'>
-          <h3 className=' py-2 text-amber-600 font-extrabold'>Portfolio : </h3>
-          <ul className=' py-2 pt-5 text-gray-700 list-disc'>
+          <h3 className='text-xs md:text-sm lg:text-base py-2 text-amber-600 font-extrabold'>Portfolio : </h3>
+          <ul className='text-xs md:text-sm lg:text-base py-2 pt-5 text-gray-700 list-disc'>
             <li>The website you are currently viewing.</li>
             <li>Made Using React and Tailwind CSS.</li>
             <li>Click <a href='https://portfolio-raisaghoshs-projects.vercel.app/' className=' font-bold text-gray-800 underline'>here</a> for recursion!</li>
@@ -183,8 +183,8 @@ the algorithm.</li>
         </div> */}
 
         <div className=' text-left shadow-lg p-10 rounded-xl my-10  bg-pink-100'>
-          <h3 className=' py-2 text-pink-600 font-extrabold'>Project Dictionary : </h3>
-          <ul className=' py-2 pt-5 text-gray-700 list-disc'>
+          <h3 className='text-xs md:text-sm lg:text-base py-2 text-pink-600 font-extrabold'>Project Dictionary : </h3>
+          <ul className='text-xs md:text-sm lg:text-base py-2 pt-5 text-gray-700 list-disc'>
             <li>A platform for students to upload their projects with a title, brief description, and an image. Update and Like features are also available.</li>
             <li>Set up the database using MongoDB Atlas and connected it to the application server. Defined the MongoDB Schema for application.</li>
             <li>Set up the different routing paths for different requests like getPosts, createPost, updatePost, deletePost, and likePost.</li>
@@ -209,8 +209,8 @@ the algorithm.</li>
           </div>
 
           <div className=' text-left shadow-lg p-10 rounded-xl my-10  bg-amber-100'>
-          <h3 className=' py-2 text-amber-600 font-extrabold'>Automatic recipe Finder : </h3>
-          <ul className=' py-2 pt-5 text-gray-700 list-disc'>
+          <h3 className='text-xs md:text-sm lg:text-base py-2 text-amber-600 font-extrabold'>Automatic recipe Finder : </h3>
+          <ul className='text-xs md:text-sm lg:text-base py-2 pt-5 text-gray-700 list-disc'>
             <li>Calling this program with an Excel file as input will automatically create text files containing the first 10 links for the web pages that have the recipes of the items in the Excel file.</li>
             <li>Excel files need to have a particular format.</li>
             <li>Since web scraping links, implemented the functionality to hold and wait after extracting a certain number of links to avoid an error</li>
@@ -226,8 +226,8 @@ the algorithm.</li>
           </div>
 
           <div className=' text-left shadow-lg p-10 rounded-xl my-10  bg-pink-100'>
-          <h3 className=' py-2 text-pink-600 font-extrabold'>To-Do List : </h3>
-          <ul className=' py-2 pt-5 text-gray-700 list-disc'>
+          <h3 className='text-xs md:text-sm lg:text-base py-2 text-pink-600 font-extrabold'>To-Do List : </h3>
+          <ul className='text-xs md:text-sm lg:text-base py-2 pt-5 text-gray-700 list-disc'>
             <li>A personal to-do list that has 3 views: All, Completed, Uncompleted. Used React localStorage as database.</li>
             <li>Used 3 components: Form(to add to-dos and filter out todos based on their completion status), Todos(to list out all
                 todos), Todo(a component used in the Todos component to view/update each todo)</li>
@@ -243,8 +243,8 @@ the algorithm.</li>
           </div>
 
           <div className=' text-left shadow-lg p-10 rounded-xl my-10  bg-amber-100'>
-          <h3 className=' py-2 text-amber-600 font-extrabold'>Analysing Student Results : </h3>
-          <ul className=' py-2 pt-5 text-gray-700 list-disc'>
+          <h3 className='text-xs md:text-sm lg:text-base py-2 text-amber-600 font-extrabold'>Analysing Student Results : </h3>
+          <ul className='text-xs md:text-sm lg:text-base py-2 pt-5 text-gray-700 list-disc'>
             <li>A package made for the use of my college&apos;s exam cell. It contained different programs that read files and performed some operations according to the user&apos;s choice, like ranking students according to their grades or making report cards for students.</li>
             <li>Divided the different functionalities into different programs for better readability, reproducibility, and modifications in the future.</li>
             <li>Click on the image below for more details!</li>
@@ -272,10 +272,10 @@ the algorithm.</li>
         <div className='lg:flex-row lg:flex-wrap gap-10'>
           <div className=' text-left shadow-lg p-10 rounded-xl my-10 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
             <Image src={cultural} width={130} height={100} alt=""/>
-            <h3 className=' text-xl font-medium pt-8 pb-1 text-pink-600 '>Yuva Sangam Delegate</h3>
-            <p className=' text-base text-amber-600 '>Government of India</p>
-            <p className=' text-sm text-gray-400 '>2023</p>
-            <ul className=' pt-5 text-gray-700 list-disc'>
+            <h3 className=' text-base md:text-lg lg:text-xl font-medium pt-8 pb-1 text-pink-600 '>Yuva Sangam Delegate</h3>
+            <p className=' text-xs md:text-sm lg:text-base text-amber-600 '>Government of India</p>
+            <p className=' text-xs md:text-sm lg:text-sm text-gray-400 '>2023</p>
+            <ul className='text-xs md:text-sm lg:text-base pt-5 text-gray-700 list-disc'>
               <li><a href='https://ebsb.aicte-india.org/' className=' font-bold text-gray-800 underline'>Cultural Exchange</a> organised by the Ministry of Education.</li>
               <li>Selected to represent West Bengal at Madhya Pradesh.</li>
               <li>Participated in a 10 day cultural immersion tour.</li>
@@ -287,10 +287,10 @@ the algorithm.</li>
         <div className='lg:flex-row lg:flex-wrap gap-10'>
           <div className=' text-left shadow-lg p-10 rounded-xl my-10 bg-gradient-to-r from-pink-100 to-amber-100 dark:bg-gradient-from-pink-50 dark:to-amber-50'>
             <Image src={debate} width={130} height={100} alt=""/>
-            <h3 className=' text-xl font-medium pt-8 pb-1 text-pink-600 '>National Debate Champion</h3>
-            <p className=' text-base text-amber-600 '>IIT Kharagpur</p>
-            <p className=' text-sm text-gray-400 '>2022</p>
-              <p className=' pt-5 text-gray-700 list-disc' >Won a national level debate organisd by <a href='https://www.iitkgp.ac.in/' className=' font-bold text-gray-800 underline'>IIT Kharagpur</a></p>
+            <h3 className=' text-base md:text-lg lg:text-xl font-medium pt-8 pb-1 text-pink-600 '>National Debate Champion</h3>
+            <p className=' text-xs md:text-sm lg:text-base text-amber-600 '>IIT Kharagpur</p>
+            <p className=' text-xs md:text-sm lg:text-sm text-gray-400 '>2022</p>
+              <p className='text-xs md:text-sm lg:text-base pt-5 text-gray-700 list-disc' >Won a national level debate organisd by <a href='https://www.iitkgp.ac.in/' className=' font-bold text-gray-800 underline'>IIT Kharagpur</a></p>
           </div>
         </div>
 
