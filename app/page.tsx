@@ -36,7 +36,7 @@ export default function Home() {
       
       <section className=''>
         <nav className=' py-14 mb-12 flex justify-between'>
-          <h1 className=' text-2xl font-burtons text-gray-700 dark:text-gray-200'>Raisa's Portfolio</h1>
+          <h1 className=' text-2xl font-burtons text-gray-700 dark:text-gray-200'>Raisa&apos;s Portfolio</h1>
           <ul className=' flex items-center'>
             <li className='text-gray-700 dark:text-gray-200 pl-10'>
               <BsFillMoonStarsFill className=' cursor-pointer text-2xl' onClick={()=>setDarkMode(!darkMode)}></BsFillMoonStarsFill>
@@ -260,7 +260,7 @@ the algorithm.</li>
           
         </div>
       </section>
-
+``
       {/* SECTION 5 */}
 
       <section className=' pt-10'>
