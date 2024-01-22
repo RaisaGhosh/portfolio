@@ -260,7 +260,7 @@ the algorithm.</li>
           
         </div>
       </section>
-``
+
       {/* SECTION 5 */}
 
       <section className=' pt-10'>
